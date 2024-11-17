@@ -8,7 +8,6 @@ for number in numbers:
     if number % i == 0:
       not_primes.append(number)
       primes.remove(number)
-      print('not_pr', number)
       break
 print('Primes: ',primes)
 print('Not_primes: ',not_primes)
